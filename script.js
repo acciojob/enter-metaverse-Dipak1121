@@ -6,6 +6,7 @@ function fun(){
 	para.remove();
 	const heading = document.createElement("h1");
 	heading.innerText = "Entered Metaverse";
+	heading.id = "status";
 	const parent = document.getElementsByTagName("body")[0];
 	parent.insertBefore(heading, btn);
 }
